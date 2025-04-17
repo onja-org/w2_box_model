@@ -5,7 +5,7 @@ Understand how the CSS box model works and how each layer (content, padding, bor
 
 ## 🛠️ Project Setup  
 
-- git clone https://github.com/your-username/css-labs.git
+- git clone [https://github.com/your-username/css-labs.git](https://github.com/onja-org/w2_box_model.git)
 - `cd css-labs/box-model`
 - Link the `CSS` in your `index.html` head section
 
