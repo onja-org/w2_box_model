@@ -38,7 +38,7 @@ In your `index.html`, create a basic structure with nested `<div>` elements:
 
 - Use **box-sizing: border-box**; to keep sizing manageable.
 - Don't worry about getting it perfect on the first try - use Dev Tools to tweak and debug.
-- This is about visual learning—so make it colorful, clear, and creative!
+- This is about visual learning - so make it colorful, clear, and creative!
 
 ## Bonus Part - Customize Your Box 🎨
 
@@ -62,5 +62,24 @@ Adding content helps you:
 - Understand how borders behave when content grows
 - Customize your project to feel more personal and engaging
 
-Feel free to get creative! 🎉  
-This isn’t just about memorizing CSS - it’s about making something!
+Feel free to get creative!  This isn’t just about memorizing CSS - it’s about making something!
+
+### Running the Test (Steps)
+
+- Install dependencies by running: `npm install`
+- Run the test: `npm test`; This will execute the automated checks and give you feedback on whether your box model structure is correct.
+
+NB: If you encounter errors, read the messages carefully - they’ll help you understand what to fix!
+
+### Submit Your Work
+
+When you're done:
+
+1. Save all changes
+2. Make sure all your changes are committed:
+
+    ```
+    git add .
+    git commit -m "Complete Box Label Lab"
+    ```
+3. Push your project to GitHub
