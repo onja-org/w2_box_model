@@ -1,24 +1,18 @@
 {
   "name": "w2_box_label",
   "version": "1.0.0",
-  "description": "In this exercise, you'll create and label the different layers of the CSS box model: `margin`, `border`, `padding`, and `content`.",
-  "main": "index.js",
- "scripts": {
-  "test": "./node_modules/.bin/jest test/test.mjs",
-  "submit": "chmod +x ./test/submit.sh && ./test/submit.sh"
-},
+  "description": "In this exercise, you'll create a user profile card component to present layers of the CSS box model: `margin`, `border`, `padding`, and `content`.",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm install & node test/test-box-label.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/onja-org/w2_box_label_lab.git"
   },
-  "author": "",
+  "author": "Onja",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/onja-org/w2_box_label_lab/issues"
-  },
-  "homepage": "https://github.com/onja-org/w2_box_label_lab#readme",
   "devDependencies": {
-    "jest": "^29.7.0",
-    "jsdom": "^26.1.0"
+    "cheerio": "^1.1.0"
   }
 }
