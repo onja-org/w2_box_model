@@ -1,6 +1,7 @@
 # 📦 Box Model Basics - Lesson
 
-**Objective**:  
+**Objective**:
+
 Understand how the CSS box model works and how each layer (content, padding, border, margin) affects element layout on the page.
 
 ---
