@@ -43,18 +43,11 @@ Apply your knowledge through practical exercises:
 
 ## 🏁 Getting Started
 
-### Project Setup
+This is a pure HTML/CSS learning project - no installation required! Simply:
 
-This project now includes configuration files in the root directory:
-- `package.json` - Node.js dependencies and scripts
-- `.gitignore` - Git ignore patterns
-- Development files are organized in `/lab` and `/lesson` directories
-
-### Installation (Optional)
-If you want to use any Node.js tools or dependencies:
-```bash
-npm install
-```
+1. Open the HTML files directly in your browser
+2. Edit CSS files to see changes instantly  
+3. Use browser Developer Tools for inspection
 
 **Ready to begin?**
 
@@ -69,6 +62,3 @@ npm install
 | **Lesson** | Theory and concepts | [lesson/README.md](./lesson/README.md) |
 | **Labs** | Hands-on practice | [lab/README.md](./lab/README.md) |
 
----
-
-*� **Tip**: Bookmark this page to easily navigate between lesson and lab sections!*
