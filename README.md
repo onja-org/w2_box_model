@@ -43,6 +43,19 @@ Apply your knowledge through practical exercises:
 
 ## 🏁 Getting Started
 
+### Project Setup
+
+This project now includes configuration files in the root directory:
+- `package.json` - Node.js dependencies and scripts
+- `.gitignore` - Git ignore patterns
+- Development files are organized in `/lab` and `/lesson` directories
+
+### Installation (Optional)
+If you want to use any Node.js tools or dependencies:
+```bash
+npm install
+```
+
 **Ready to begin?**
 
 👉 **[Start with the Lesson →](./lesson/README.md)**

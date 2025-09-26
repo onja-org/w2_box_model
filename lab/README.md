@@ -6,15 +6,38 @@ Welcome to the practical lab activities! Make sure you've read the [conceptual l
 
 ---
 
+## 📁 Project Structure
+
+The project is organized as follows:
+```
+w2_box_model/
+├── package.json          # Node.js configuration (root)
+├── .gitignore           # Git ignore patterns (root)
+├── README.md            # Main project overview (root)
+├── lab/                 # Lab exercises (this directory)
+│   ├── README.md        # Lab instructions (this file)
+│   ├── index.html       # Lab HTML file
+│   └── styles.css       # Lab CSS file
+└── lesson/              # Lesson materials
+    └── README.md        # Lesson content
+```
+
+---
+
 ## 🛠️ Lab Setup
 
 Before starting these hands-on activities, make sure you have:
 
-1. **Project Files Ready**:
-   - You should have `index.html` and `styles.css` files
-   - If not, create them in this lab directory
+1. **Project Structure Understanding**:
+   - Configuration files (`package.json`, `.gitignore`) are in the root directory
+   - Lab files should be created in this `/lab` directory
+   - You should have `index.html` and `styles.css` files in the lab folder
 
-2. **Link Your CSS**:
+2. **Create Lab Files** (if not already present):
+   - Create `index.html` and `styles.css` in this lab directory
+   - If using Node.js dependencies, run `npm install` from the root directory
+
+3. **Link Your CSS**:
    Add this to your `index.html` head section:
    ```html
    <link rel="stylesheet" href="styles.css">
