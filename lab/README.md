@@ -395,5 +395,5 @@ box-sizing: border-box;
 - **Margin** pushes other elements away.
 - **Dev Tools** is your best friend to visualize these layers in real time.
 - **box-sizing** affects how width and height are calculated:
-  - content-box: adds padding/border outside the size
+  - content-box: adds padding/border outside the sizeAdria
   - border-box: includes padding/border inside the size

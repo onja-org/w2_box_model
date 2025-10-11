@@ -29,6 +29,18 @@ Apply your knowledge through practical exercises:
 - 🔍 **Lab 3**: Use Developer Tools for real-time inspection
 - � **Challenges**: Test your understanding with practical scenarios
 
+### Mockup
+Below is a visual reference of how your Box Model Lab page could look:
+![box-modal-mockup](/assets/box-model.png)
+
+> **Guidelines**:  
+> - The mockup is just a reference or a clue – you don’t need to - replicate it exactly.
+> - Focus on demonstrating padding, border, margin, and box-sizing with your own style choices.
+> - Try to make your layout organized and visually clear, but colors, spacing, and exact alignment can differ.
+> - Use the mockup to inspire your design and help you understand how sections and boxes might be structured.
+
+
+>**Note**: Think of it as a visual hint, not a strict template. **Creativity is encouraged!**
 ---
 
 ## 🎯 Learning Path
@@ -43,11 +55,14 @@ Apply your knowledge through practical exercises:
 
 ## 🏁 Getting Started
 
-This is a pure HTML/CSS learning project - no installation required! Simply:
-
-1. Open the HTML files directly in your browser
-2. Edit CSS files to see changes instantly  
-3. Use browser Developer Tools for inspection
+1. **Clone/Download** this repository
+2. **Navigate** to the `w2_box_model folder ` 
+3. **Install** dependencies: `npm install`
+4. **Run tests** to check current status: `npm test`
+5. **Install Live Server extension in VS Code** to open the HTML files directly in your browser
+6. **Edit** files in the `lab/` folder to complete the exercise
+7. **Re-run tests** to track progress: `npm test`
+8. Use browser **Developer Tools** for inspection
 
 **Ready to begin?**
 
@@ -61,4 +76,3 @@ This is a pure HTML/CSS learning project - no installation required! Simply:
 |---------|-------------|------|
 | **Lesson** | Theory and concepts | [lesson/README.md](./lesson/README.md) |
 | **Labs** | Hands-on practice | [lab/README.md](./lab/README.md) |
-

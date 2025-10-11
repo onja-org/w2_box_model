@@ -1,0 +1,20 @@
+{
+  "name": "box-model-lab",
+  "version": "1.0.0",
+  "description": "Hands-on CSS Box Model Lab for practicing padding, border, margin, box-sizing, and responsive layouts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^22.1.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  }
+}
