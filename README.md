@@ -56,11 +56,11 @@ Below is a visual reference of how your Box Model Lab page could look:
 ## 🏁 Getting Started
 
 1. **Clone/Download** this repository
-2. **Navigate** to the `w2_box_model folder ` 
+2. **Navigate** to the `w2_box_model folder`
 3. **Install** dependencies: `npm install`
 4. **Run tests** to check current status: `npm test`
 5. **Install Live Server extension in VS Code** to open the HTML files directly in your browser
-6. **Edit** files in the `lab/` folder to complete the exercise
+6. **Edit** files in the `lab/` folder to complete each lab activity and practice the concepts learned.
 7. **Re-run tests** to track progress: `npm test`
 8. Use browser **Developer Tools** for inspection
 
