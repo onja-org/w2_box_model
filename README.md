@@ -31,7 +31,7 @@ Apply your knowledge through practical exercises:
 
 ### Mockup
 Below is a visual reference of how your Box Model Lab page could look:
-![box-modal-mockup](/assets/box-model.png)
+![box-modal-mockup](/lab/public/box-model.png)
 
 > **Guidelines**:  
 > - The mockup is just a reference or a clue – you don’t need to - replicate it exactly.

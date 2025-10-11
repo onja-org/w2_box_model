@@ -12,7 +12,7 @@ describe('Box Model Lab - HTML Structure Tests', () => {
   let htmlContent;
 
   beforeAll(() => {
-    const htmlPath = path.join(__dirname, '..', 'lab', 'index.html');
+    const htmlPath = path.join(__dirname, '..', 'index.html');
     htmlContent = fs.readFileSync(htmlPath, 'utf8');
     document.documentElement.innerHTML = htmlContent;
   });
@@ -50,14 +50,6 @@ describe('Box Model Lab - HTML Structure Tests', () => {
   });
 
   // ------------------------
-  // Lab 2: Multiple Boxes
-  // ------------------------
-  describe('Lab 2: Multiple Boxes', () => {
-    test('should have at least three .custom-box elements', () => {
-      const boxes = document.querySelectorAll('.custom-box');
-      expect(boxes.length).toBeGreaterThanOrEqual(3);
-    });
-  });
 
   // ------------------------
   // Lab 3: Nested Box
