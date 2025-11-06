@@ -1,21 +1,325 @@
 /* CSS Box Model Demo Styles */
 
-/* TODO: Add your CSS implementation here */
-
-/* Hint: Start with these foundational styles */
-/*
+/* Universal Box Sizing */
 * {
     box-sizing: border-box;
 }
 
+/* Body and Layout Foundation */
 body {
     margin: 0;
-    padding: 0;
+    padding: 40px 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: white;
-    min-height: 100vh;
+    background-color: white;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
 }
-*/
+
+/* Demo Container */
+.demo-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #f5f5f5;
+    padding: 40px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Title and Description */
+.demo-container h1 {
+    text-align: center;
+    margin: 0 0 10px 0;
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 300;
+}
+
+.demo-description {
+    text-align: center;
+    margin: 0 0 40px 0;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Box Model Wrapper */
+.box-model-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+/* Margin Area (Pink/Orange) */
+.margin-area {
+    background: rgba(255, 154, 77, 0.3); /* Light orange/pink */
+    padding: 60px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.margin-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff9a4d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.margin-note {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: #ff9a4d;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+/* Card - This represents the yellow border */
+.card {
+    background: #F5D76E; /* Yellow background for border */
+    padding: 12px; /* This creates the border thickness */
+    position: relative;
+    border-radius: 4px;
+}
+
+.border-label {
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    background: #F5D76E;
+    color: #333;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 2px solid #333;
+}
+
+.content-label {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #4A90E2;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 2px solid white;
+    z-index: 10;
+}
+
+/* Padding Area (Green) */
+.padding-area {
+    background: #7ED321;
+    padding: 25px;
+    position: relative;
+    border-radius: 4px;
+}
+
+.padding-label {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: #7ED321;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+/* Content Area (Blue) */
+.content-area {
+    background-color: #4A90E2;
+    padding: 25px;
+    margin: 0;
+    border: 1px solid #4A90E2;
+    text-align: center;
+    color: white;
+    position: relative;
+    border-radius: 4px;
+    width: 300px;
+    max-width: 350px;
+}
+
+/* Profile Image */
+.demo-container img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    display: block;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    display: block;
+}
+
+/* Content Typography */
+.content-area h2 {
+    margin: 0 0 15px 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.content-area p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.95;
+}
+
+/* Legend Styles */
+.legend {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.legend h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.3rem;
+    color: #333;
+    font-weight: 400;
+}
+
+.legend-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.margin-color { background: #ff9a4d; }
+.border-color { background: #F5D76E; }
+.padding-color { background: #7ED321; }
+.content-color { background: #4A90E2; }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+    
+    .demo-container {
+        padding: 20px;
+    }
+    
+    .demo-container h1 {
+        font-size: 2rem;
+    }
+    
+    .demo-description {
+        font-size: 1rem;
+    }
+    
+    .margin-area {
+        padding: 40px;
+    }
+    
+    .content-area {
+        width: 250px;
+        padding: 20px;
+    }
+    
+    .content-area h2 {
+        font-size: 1.5rem;
+    }
+    
+    .content-area p {
+        font-size: 0.9rem;
+    }
+    
+    .legend-items {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .margin-note {
+        position: static;
+        margin-top: 20px;
+        text-align: center;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 480px) {
+    .demo-container h1 {
+        font-size: 1.8rem;
+    }
+    
+    .margin-area {
+        padding: 25px;
+    }
+    
+    .content-area {
+        width: 220px;
+        padding: 15px;
+    }
+    
+    .padding-area {
+        padding: 15px;
+    }
+    
+    .card {
+        padding: 8px;
+    }
+    
+    .profile-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .profile-image::before {
+        font-size: 1.8rem;
+    }
+    
+    .content-area h2 {
+        font-size: 1.3rem;
+    }
+    
+    .content-area p {
+        font-size: 0.85rem;
+    }
+    
+    /* Adjust label sizes for mobile */
+    .margin-label,
+    .border-label,
+    .padding-label,
+    .content-label {
+        font-size: 0.75rem;
+        padding: 3px 8px;
+    }
+}
