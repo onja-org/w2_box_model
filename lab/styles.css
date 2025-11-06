@@ -1,0 +1,21 @@
+/* CSS Box Model Demo Styles */
+
+/* TODO: Add your CSS implementation here */
+
+/* Hint: Start with these foundational styles */
+/*
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
