@@ -9,7 +9,7 @@ This project provides students with an interactive way to learn one of CSS's mos
 ## Project Structure
 
 ```
-w2_box_label_lab/
+w2_box_model/
 ├── README.md                 # Project overview (this file)
 ├── assets/                   # Project assets and images
 │   └── box-model-demo-preview.png
@@ -27,8 +27,8 @@ w2_box_label_lab/
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/w2_box_label_lab.git
-   cd w2_box_label_lab
+   git clone https://github.com/your-username/w2_box_model.git
+   cd w2_box_model
    ```
 
 2. **Start the lab**:

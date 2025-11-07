@@ -1,5 +1,5 @@
 {
-  "name": "w2_box_label",
+  "name": "w2_box_model",
   "version": "1.0.0",
   "description": "In this exercise, you'll create a user profile card component to present layers of the CSS box model: `margin`, `border`, `padding`, and `content`.",
   "main": "test.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onja-org/w2_box_label_lab.git"
+    "url": "git+https://github.com/onja-org/w2_box_model.git"
   },
   "author": "Onja",
   "license": "ISC",
